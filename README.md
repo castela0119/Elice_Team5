@@ -48,6 +48,24 @@
   - Nginx
   - Gunicorn
 
-## 3. Poetry 실행 및 명령어
+## 3. Poetry 설치 및 실행
+```shell
+> curl -sSL https://raw.githubusercontent.com/python-poetry/poetry/master/get-poetry.py | python
+
+> source $HOME/.poetry/env
+
+# poetryt 프로젝트에서 최초 생성시
+> poetry new my-project
+
+# poetry 가상환경 실행
+> poetry shell
+```
+```shell
+# 특정 패키지 설치 명령어
+> poetry add <패키지명>
+
+# .toml 파일에 작성된 패키지 설치(requirements.txt 와 유사)
+> poetry update
+```
 ## 4. Mysql 연결 및 명령어
 ## 5. Nginx, Gunicorn 연결 및 실행 명령어
