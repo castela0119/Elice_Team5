@@ -50,11 +50,13 @@
 
 ## 3. Poetry 설치 및 실행
 ```shell
+# poetry 설치
 > curl -sSL https://raw.githubusercontent.com/python-poetry/poetry/master/get-poetry.py | python
 
+# 환경변수 설정
 > source $HOME/.poetry/env
 
-# poetryt 프로젝트에서 최초 생성시
+# poetry 프로젝트에서 최초 생성시
 > poetry new my-project
 
 # poetry 가상환경 실행
