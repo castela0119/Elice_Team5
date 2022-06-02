@@ -1,0 +1,35 @@
+[tool.poetry]
+name = "back-end"
+version = "0.1.0"
+description = ""
+authors = ["hyeminKim <hmkim199@naver.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+Django = "^4.0.2"
+mysqlclient = "^2.1.0"
+django-dotenv = "^1.4.2"
+django-rest-framework = "^0.1.0"
+djangorestframework-simplejwt = "^5.0.0"
+youtube-transcript-api = "^0.4.3"
+krwordrank = "^1.0.3"
+pytube = "^12.0.0"
+pandas = "^1.4.1"
+drf-yasg = "^1.20.0"
+django-cors-headers = "^3.11.0"
+gunicorn = "^20.1.0"
+isort = "^5.10.1"
+konlpy = "^0.6.0"
+
+[tool.poetry.dev-dependencies]
+flake8 = "^4.0.1"
+black = "^22.1.0"
+isort = "^5.10.1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.black]
+line-length = 88
+target-version = ['py38']
